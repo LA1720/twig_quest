@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+<div class="container-fluid">
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  {% for product in products %}
+     <div class="card-body">
+      {{product}}
+     <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+     {% endfor %}
+    </div>
+</div>
+{% endblock %}

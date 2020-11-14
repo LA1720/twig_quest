@@ -1,0 +1,13 @@
+{
+    "name": "wilder/twig",
+    "description": "twig",
+    "authors": [
+        {
+            "name": "ALI AFZAL",
+            "email": "layaafzal74@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.1"
+    }
+}
